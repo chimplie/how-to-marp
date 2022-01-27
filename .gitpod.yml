@@ -1,0 +1,9 @@
+tasks:
+  - init: npm install  # runs during prebuild
+    command: npx marp ./slideshows --server  # runs on the workspace start
+ports:
+  - port: 8080  # Marp CLI server
+    onOpen: open-preview
+vscode:
+  extensions:
+    - marp-team.marp-vscode  # Enables live edit for Marp in VS Code
