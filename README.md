@@ -12,7 +12,7 @@ We suggest to open this repository in [Gitpod](https://gitpod.io):
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/chimplie/how-to-marp)
 
-This will automatically configures development environment and start a Marp server.
+This will automatically configures development environment, installs [Marp CLI](https://github.com/marp-team/marp-cli) and start Marp server.
 
 Your First Presentation
 -----------------------
