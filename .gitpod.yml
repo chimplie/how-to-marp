@@ -1,6 +1,6 @@
 tasks:
   - init: npm install  # runs during prebuild
-    command: npx marp ./slideshows --server  # runs on the workspace start
+    command: npm run marp  # runs on the workspace start
 ports:
   - port: 8080  # Marp CLI server
     onOpen: open-preview

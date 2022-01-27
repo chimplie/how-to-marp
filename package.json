@@ -1,10 +1,9 @@
 {
-  "name": "how-to-marp",
+  "name": "let-it-marp",
   "version": "1.0.0",
-  "description": "A brief introduction to Marp",
-  "main": "index.js",
+  "description": "A simple Gitpod-powered template for Marp presentations.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "marp": "npx marp ./slideshows --server"
   },
   "repository": {
     "type": "git",
@@ -14,7 +13,8 @@
     "marp",
     "markdown",
     "slideshow",
-    "presentation"
+    "presentation",
+    "gitpod"
   ],
   "author": "Mykhailo Ziatin",
   "license": "Apache-2.0",

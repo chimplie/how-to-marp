@@ -22,7 +22,7 @@ Install Node.js dependencies:
 npm install
 ```
 
-Then you can start Marp server:
+Then you can start Marp server (runs on port `8080`):
 
 ```bash
 npm run marp
@@ -42,4 +42,4 @@ The [`slideshows/`](./slideshows/) folder contains example presentations. Feel f
 Credits
 -------
 
-This template is created by [Mykhailo Ziatin](https://github.com/Sitin/) as a part of the [Talent Agent](https://agent.chimplie.com/) project.
+This template is created by [Mykhailo Ziatin](https://github.com/Sitin/) as a part of the [Talent Agent](https://agent.chimplie.com/) platform.
